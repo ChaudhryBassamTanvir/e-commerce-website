@@ -6,6 +6,7 @@ import MainSection from "./components/MainSection";
 import Categories from "./components/Categories";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { ReduxProvider } from "./lib/redux/config";
 // import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,8 +26,7 @@ export default function RootLayout({
         <Navbar />
         <MainSection />
         <Categories />
-
-        {children}
+        <ReduxProvider>{children}</ReduxProvider>
       </body>
     </html>
   );
