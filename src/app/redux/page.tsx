@@ -14,10 +14,7 @@ const page = () => {
       <button className="text-5xl" onClick={() => dispatch(decrement())}>
         -
       </button>
-      <span className="text-5xl">
-        {/* {counter} */}
-        {store}
-      </span>
+      <span className="text-5xl">{store}</span>
       <button className="text-5xl" onClick={() => dispatch(increment())}>
         +{" "}
       </button>

@@ -32,7 +32,7 @@ const Testimonials = () => {
               everyone.
             </p>
             <h2 className="text-gray-500 font-black text-[20px]">
-              Fatima Rasheed
+              Chaudhry Bassam Tanvir
             </h2>
           </div>
         </div>
