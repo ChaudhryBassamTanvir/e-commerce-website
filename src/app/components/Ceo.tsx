@@ -13,7 +13,7 @@ const Testimonials = () => {
             <br />
             <Image
               className="rounded-full inline-block"
-              src="/ceo.jpeg"
+              src="/"
               width={100}
               height={100}
               alt="dp"
