@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <>
       <br />
-      <div className="border-b border-t border-gray-200 sm:block">
+      <div className="border-b border-t border-gray-200">
         <div className="container py-4">
-          <div className="flex justify-between items-center">
-            <div className="flex lg:flex gap-1">
+          <div className="flex flex-col sm:flex-row justify-between items-center">
+            <div className="flex gap-1 mb-4 sm:mb-0">
               <div className="icons_wrap">
                 <BsFacebook size={24} />
               </div>
@@ -23,9 +23,10 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="text-gray-500 text-[12px]">
+            <div className="text-gray-500 text-[12px] mb-4 sm:mb-0">
               <b>Shopping with US </b>Order Now
             </div>
+
             <div className="flex gap-4">
               <select
                 className="text-gray-500 text-[12px] w-[70px]"
